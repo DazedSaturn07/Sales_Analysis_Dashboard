@@ -1,0 +1,88 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "name": "reset_customers",
+  "displayName": "Reset customers",
+  "explorationState": {
+    "version": "1.0",
+    "activeSection": "customers",
+    "sections": {
+      "customers": {
+        "visualContainers": {
+          "customers_month": {
+            "singleVisual": {
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "selfFilterEnabled": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "customers_country": {
+            "singleVisual": {
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "selfFilterEnabled": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "customers_segment": {
+            "singleVisual": {
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "selfFilterEnabled": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "customers_month",
+      "customers_country",
+      "customers_segment"
+    ],
+    "applyOnlyToTargetVisuals": true,
+    "suppressDisplay": true,
+    "suppressActiveSection": true
+  }
+}

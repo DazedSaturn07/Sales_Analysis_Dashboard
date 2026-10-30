@@ -1,0 +1,31 @@
+{
+  "name": "Retail Sales",
+  "dataColors": [
+    "#246E68",
+    "#B67628",
+    "#729D94",
+    "#4B7C91",
+    "#B5C9C1",
+    "#D7BB8F"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#173D42",
+  "tableAccent": "#246E68",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#173D42"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#62767A"
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 27,
+      "color": "#246E68"
+    }
+  }
+}

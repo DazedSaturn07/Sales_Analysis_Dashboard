@@ -1,0 +1,48 @@
+stage,scope,check,expected,actual,passed
+Power BI,baseline,Sales,17374804.25,17374804.25,True
+Power BI,baseline,Orders,36969,36969,True
+Power BI,baseline,Customers,5878,5878,True
+Power BI,baseline,AOV,469.98307365630666,469.98307365630666,True
+Power BI,baseline,Lines,779425,779425,True
+Power BI,baseline,Units,10513952,10513952,True
+Power BI,baseline,Products,4631,4631,True
+Power BI,baseline,RepeatCustomers,4255,4255,True
+Power BI,baseline,RetainedRate,0.7302287583230198,0.7302287583230198,True
+Power BI,Australia,Sales,169283.46,169283.46,True
+Power BI,Australia,Orders,95,95,True
+Power BI,Australia,Customers,15,15,True
+Power BI,partial December 2011,MoM,,,True
+Power BI,partial December 2011,YoY,,,True
+Notebook 03,full dataset,raw_source_sales_lines,True,True,True
+Notebook 03,full dataset,raw_source_revenue_pence,True,True,True
+Notebook 03,full dataset,raw_source_orders,True,True,True
+Notebook 03,full dataset,raw_source_customers,True,True,True
+Notebook 03,full dataset,raw_source_quantity,True,True,True
+Notebook 03,full dataset,table_total_orders,True,True,True
+Notebook 03,full dataset,table_total_customer_metrics,True,True,True
+Notebook 03,full dataset,table_total_monthly_revenue,True,True,True
+Notebook 03,full dataset,table_total_country_revenue,True,True,True
+Notebook 03,full dataset,table_total_product_performance,True,True,True
+Notebook 03,full dataset,table_total_daily_revenue,True,True,True
+Notebook 03,full dataset,table_total_hourly_revenue,True,True,True
+Notebook 03,full dataset,table_total_rfm_segments,True,True,True
+Notebook 03,full dataset,fact_invariants,True,True,True
+Notebook 03,full dataset,customer_key,True,True,True
+Notebook 03,full dataset,cohort_bounds,True,True,True
+Notebook 03,full dataset,calendar_continuity,True,True,True
+Notebook 03,full dataset,kpi_SalesLines,True,True,True
+Notebook 03,full dataset,kpi_RevenuePence,True,True,True
+Notebook 03,full dataset,kpi_Orders,True,True,True
+Notebook 03,full dataset,kpi_Customers,True,True,True
+Notebook 03,full dataset,kpi_Products,True,True,True
+Notebook 03,full dataset,kpi_Countries,True,True,True
+Notebook 03,full dataset,kpi_Quantity,True,True,True
+Notebook 03,full dataset,kpi_AvgOrderValue,True,True,True
+Notebook 03,full dataset,monthly_revenue,True,True,True
+Notebook 03,full dataset,country_revenue,True,True,True
+Notebook 03,full dataset,product_performance,True,True,True
+Notebook 03,full dataset,daily_revenue,True,True,True
+Notebook 03,full dataset,hourly_revenue,True,True,True
+Notebook 03,full dataset,orders,True,True,True
+Notebook 03,full dataset,customer_metrics,True,True,True
+Notebook 03,full dataset,cohort_retention,True,True,True

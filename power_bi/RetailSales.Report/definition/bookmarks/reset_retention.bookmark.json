@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "name": "reset_retention",
+  "displayName": "Reset retention",
+  "explorationState": {
+    "version": "1.0",
+    "activeSection": "retention",
+    "sections": {
+      "retention": {
+        "visualContainers": {
+          "retention_cohort": {
+            "singleVisual": {
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "selfFilterEnabled": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "retention_cohort"
+    ],
+    "applyOnlyToTargetVisuals": true,
+    "suppressDisplay": true,
+    "suppressActiveSection": true
+  }
+}

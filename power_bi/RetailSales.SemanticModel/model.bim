@@ -1,0 +1,1892 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Sales\",\"Customers\",\"Calendar\",\"Products\",\"Countries\",\"Cohorts\",\"Quality\",\"Audit\",\"ProjectFolder\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-GB",
+    "cultures": [
+      {
+        "name": "en-GB",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "calendar.dayofweek": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "DayOfWeek"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "DayOfWeek": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "calendar.yearmonth": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "YearMonth"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Month": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "YearMonth": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "cohorts.cohortmonth": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cohorts",
+                    "ConceptualProperty": "CohortMonth"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "CohortMonth": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Cohort": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "cohorts.monthindex": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cohorts",
+                    "ConceptualProperty": "MonthIndex"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Month after first observation": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "countries.country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Countries",
+                    "ConceptualProperty": "Country"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Country": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "customers.frequencysegment": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customers",
+                    "ConceptualProperty": "FrequencySegment"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "FrequencySegment": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "customers.segment": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customers",
+                    "ConceptualProperty": "Segment"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Segment": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.description": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "Description"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Description": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.stockcode": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "StockCode"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Stock code": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "quality.reason": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Quality",
+                    "ConceptualProperty": "Reason"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Reason": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.average_order_value_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Average order value display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Average order value display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.cohort_customers_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Cohort customers display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cohort customers display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.cohort_month_count_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Cohort month count display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cohort month count display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.cohort_retention": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Cohort retention"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cohort retention": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.completemonth_sales": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Complete-month sales"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Complete months": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.customers": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Customers"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Customers": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.customers_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Customers display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Customers display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.eligible_lines_audit_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Eligible lines audit display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Eligible lines audit display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.excluded_lines": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Excluded lines"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Excluded lines": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.excluded_lines_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Excluded lines display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Excluded lines display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.hour": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Hour"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Hour": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.mom_growth": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "MoM growth"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "MoM growth": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.orders": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Orders"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Orders": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.orders_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Orders display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Orders display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.partialmonth_sales": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Partial-month sales"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Partial month": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.positive_sales": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Positive sales"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Sales · GBP": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Positive sales": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.positive_sales_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Positive sales display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Positive sales display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.products_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Products display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Products display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.repeat_customer_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Repeat customer rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Repeat customer rate": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.repeat_customer_rate_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Repeat customer rate display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Repeat customer rate display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.repeat_customers_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Repeat customers display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Repeat customers display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.retained_line_rate_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Retained line rate display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Retained line rate display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.sales_lines_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Sales lines display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Sales lines display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.sales_per_customer_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Sales per customer display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Sales per customer display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.source_lines_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Source lines display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Source lines display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.top_10_country_sales": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Top 10 country sales"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Top 10 country sales": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.units": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Units"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Units": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.units_display": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "Units display"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Units display": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sales.yoy_growth": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sales",
+                    "ConceptualProperty": "YoY growth"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "YoY growth": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "ProjectFolder",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"\" meta [IsParameterQuery=true,Type=\"Text\",IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "7df73dd2-69b2-4fa2-b4f4-2c97d4f8d78f"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "Sales_Customers",
+        "fromColumn": "CustomerID",
+        "fromTable": "Sales",
+        "toColumn": "CustomerID",
+        "toTable": "Customers"
+      },
+      {
+        "name": "Sales_Products",
+        "fromColumn": "StockCode",
+        "fromTable": "Sales",
+        "toColumn": "StockCode",
+        "toTable": "Products"
+      },
+      {
+        "name": "Sales_Countries",
+        "fromColumn": "Country",
+        "fromTable": "Sales",
+        "toColumn": "Country",
+        "toTable": "Countries"
+      },
+      {
+        "name": "Sales_Calendar",
+        "fromColumn": "InvoiceDay",
+        "fromTable": "Sales",
+        "toColumn": "Date",
+        "toTable": "Calendar"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "Sales",
+        "columns": [
+          {
+            "name": "SourceRow",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "40c551de-1506-4b94-a4ee-9b29bbcf4977",
+            "sourceColumn": "SourceRow",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Invoice",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "78d22e19-40d6-49fe-9282-01bc033d38f8",
+            "sourceColumn": "Invoice",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StockCode",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "c2a9850c-a91f-47fa-91b1-3193a620526c",
+            "sourceColumn": "StockCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CustomerID",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "93f1449d-ea36-4d1a-9ee4-a1bfeab9bd2f",
+            "sourceColumn": "CustomerID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "b6743068-a2e1-49b1-a95c-e893f7c3a9d1",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "InvoiceDay",
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "isHidden": true,
+            "lineageTag": "a76a68b3-f627-49df-80ce-044d03290fc9",
+            "sourceColumn": "InvoiceDay",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Hour",
+            "dataType": "int64",
+            "lineageTag": "df58d175-5810-4ce1-a81e-977a435b735d",
+            "sourceColumn": "Hour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quantity",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "0ba28f6f-4498-4eb3-a03f-38bfe2d7353c",
+            "sourceColumn": "Quantity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RevenuePence",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "746bcc63-3fcd-48d8-a11a-da1f96ba73a3",
+            "sourceColumn": "RevenuePence",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "40f07b0b-dbc3-43ee-a644-454e7270388e",
+        "measures": [
+          {
+            "name": "Positive sales",
+            "description": "Eligible identified-customer positive sales; cancellations and excluded rows are outside this population.",
+            "displayFolder": "Sales",
+            "expression": "DIVIDE(SUM(Sales[RevenuePence]),100)",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "c687bd55-7a97-46bb-ade2-ec13bd6b9b34"
+          },
+          {
+            "name": "Orders",
+            "description": "Distinct invoices in the current selection; counts are non-additive across groups.",
+            "displayFolder": "Sales",
+            "expression": "DISTINCTCOUNT(Sales[Invoice])",
+            "formatString": "#,##0",
+            "lineageTag": "57569c52-dfb0-4d3e-ac84-6e146c914b3a"
+          },
+          {
+            "name": "Customers",
+            "description": "Distinct identified customers with eligible lines in the current selection.",
+            "displayFolder": "Sales",
+            "expression": "DISTINCTCOUNT(Sales[CustomerID])",
+            "formatString": "#,##0",
+            "lineageTag": "b701e879-24ee-473d-8eae-f30e6ffd7446"
+          },
+          {
+            "name": "Products",
+            "description": "Distinct stock codes, including retained non-merchandise codes.",
+            "displayFolder": "Sales",
+            "expression": "DISTINCTCOUNT(Sales[StockCode])",
+            "formatString": "#,##0",
+            "lineageTag": "5a9f80a1-3a3f-4fb4-b18a-55cba24c4af9"
+          },
+          {
+            "name": "Units",
+            "description": "Eligible positive units.",
+            "displayFolder": "Sales",
+            "expression": "SUM(Sales[Quantity])",
+            "formatString": "#,##0",
+            "lineageTag": "64a01037-4367-48b0-8eae-aae126727f3d"
+          },
+          {
+            "name": "Sales lines",
+            "description": "Eligible source invoice lines.",
+            "displayFolder": "Sales",
+            "expression": "COUNTROWS(Sales)",
+            "formatString": "#,##0",
+            "lineageTag": "5b679119-740c-4bb2-b41c-ffdbb4cb08ef"
+          },
+          {
+            "name": "Average order value",
+            "description": "Selected sales divided by distinct invoices. Product selection gives selected-product sales per containing invoice.",
+            "displayFolder": "Sales",
+            "expression": "DIVIDE([Positive sales],[Orders])",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "d650b88f-811c-4873-99d7-8e29887c2523"
+          },
+          {
+            "name": "Sales per customer",
+            "description": "Observed selected sales per active customer; not predictive lifetime value.",
+            "displayFolder": "Sales",
+            "expression": "DIVIDE([Positive sales],[Customers])",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "7a9eda82-9cd7-4c84-89c4-7bf82dfdd2ed"
+          },
+          {
+            "name": "Repeat customers",
+            "description": "Customers with more than one distinct invoice in the current selection.",
+            "displayFolder": "Customers",
+            "expression": "COUNTROWS(FILTER(VALUES(Sales[CustomerID]),CALCULATE([Orders])>1))",
+            "formatString": "#,##0",
+            "lineageTag": "d6223b2e-d91a-4b0b-803d-636c49d1ff0b"
+          },
+          {
+            "name": "Repeat customer rate",
+            "description": "Repeat customers / customers, both in the current selection.",
+            "displayFolder": "Customers",
+            "expression": "DIVIDE([Repeat customers],[Customers])",
+            "formatString": "0.00%",
+            "lineageTag": "6ce7aa27-8ec7-45fc-a3f9-4ca60c1613cd"
+          },
+          {
+            "name": "Single-order customers",
+            "description": "One order in the current selection; not necessarily new customers.",
+            "displayFolder": "Customers",
+            "expression": "[Customers]-[Repeat customers]",
+            "formatString": "#,##0",
+            "lineageTag": "0960bc43-08cc-42de-b26c-2300a63b5d1e"
+          },
+          {
+            "name": "Country sales share",
+            "description": "Sales share of selected countries, retaining other filters.",
+            "displayFolder": "Sales",
+            "expression": "DIVIDE([Positive sales],CALCULATE([Positive sales],ALLSELECTED(Countries[Country])))",
+            "formatString": "0.00%",
+            "lineageTag": "59a2e461-dc92-4dc5-92d8-1d7a9f543215"
+          },
+          {
+            "name": "Full-month sales",
+            "description": "Only one fully observed, fully selected calendar month.",
+            "displayFolder": "Time",
+            "expression": "VAR DaysInMonth=DAY(EOMONTH(MAX('Calendar'[Date]),0)) RETURN IF(HASONEVALUE('Calendar'[YearMonth]) && SELECTEDVALUE('Calendar'[IsFullMonth])=TRUE() && COUNTROWS(VALUES('Calendar'[Date]))=DaysInMonth,[Positive sales])",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "d82e2183-2b79-4ce2-a407-3df6eeae97a9"
+          },
+          {
+            "name": "Previous full-month sales",
+            "description": "Previous complete calendar month.",
+            "displayFolder": "Time",
+            "expression": "CALCULATE([Full-month sales],DATEADD('Calendar'[Date],-1,MONTH))",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "14d50b7f-9cb4-4558-9e3b-854ed7281efd"
+          },
+          {
+            "name": "MoM growth",
+            "description": "Blank for partial months or unavailable/zero comparisons.",
+            "displayFolder": "Time",
+            "expression": "VAR C=[Full-month sales] VAR P=[Previous full-month sales] RETURN IF(NOT ISBLANK(C) && NOT ISBLANK(P),DIVIDE(C-P,P))",
+            "formatString": "0.00%",
+            "lineageTag": "ef6edc58-29ed-49b2-aa9a-1d282ee8336a"
+          },
+          {
+            "name": "Prior-year full-month sales",
+            "description": "Matching complete month one year earlier.",
+            "displayFolder": "Time",
+            "expression": "CALCULATE([Full-month sales],SAMEPERIODLASTYEAR('Calendar'[Date]))",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "134322b1-544c-4783-9ffb-a3fe729310d5"
+          },
+          {
+            "name": "YoY growth",
+            "description": "Full-month year-over-year comparison only.",
+            "displayFolder": "Time",
+            "expression": "VAR C=[Full-month sales] VAR P=[Prior-year full-month sales] RETURN IF(NOT ISBLANK(C) && NOT ISBLANK(P),DIVIDE(C-P,P))",
+            "formatString": "0.00%",
+            "lineageTag": "0f17dc97-ce04-4f8d-98ff-4bfafa54d4a0"
+          },
+          {
+            "name": "Complete-month sales",
+            "description": "Complete-month portion for the trend chart.",
+            "displayFolder": "Time",
+            "expression": "CALCULATE([Positive sales],KEEPFILTERS('Calendar'[IsFullMonth]=TRUE()))",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "7b34b2cc-5d9e-42fc-83f1-7bfe33636736"
+          },
+          {
+            "name": "Partial-month sales",
+            "description": "Partial observed months are displayed separately in amber.",
+            "displayFolder": "Time",
+            "expression": "CALCULATE([Positive sales],KEEPFILTERS('Calendar'[IsFullMonth]=FALSE()))",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "2c1a054c-304f-4367-b105-be22ed1d5d43"
+          },
+          {
+            "name": "Product rank",
+            "description": "Rank within selected stock codes; descriptions use latest observed source label.",
+            "displayFolder": "Sales",
+            "expression": "RANKX(ALLSELECTED(Products),[Positive sales],,DESC,DENSE)",
+            "formatString": "#,##0",
+            "lineageTag": "a40852a2-a2e8-442d-b0ca-22fde90273f3"
+          },
+          {
+            "name": "Top 10 product sales",
+            "description": "Top ten ranks within the selection; ties can produce more than ten products.",
+            "displayFolder": "Sales",
+            "expression": "IF([Product rank]<=10,[Positive sales])",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "b2641b7b-ced7-42b4-88a2-799847d5bd5c"
+          },
+          {
+            "name": "Country rank",
+            "description": "Rank within selected countries.",
+            "displayFolder": "Sales",
+            "expression": "RANKX(ALLSELECTED(Countries[Country]),[Positive sales],,DESC,DENSE)",
+            "formatString": "#,##0",
+            "lineageTag": "14636bba-1c2f-4cad-a2d7-80cea335e89f"
+          },
+          {
+            "name": "Top 10 country sales",
+            "description": "Top ten country ranks within the current selection.",
+            "displayFolder": "Sales",
+            "expression": "IF([Country rank]<=10,[Positive sales])",
+            "formatString": "£#,##0.00;(£#,##0.00);£0.00",
+            "lineageTag": "6a72b154-8ac3-45c0-9d4f-caf2a2e5fb80"
+          },
+          {
+            "name": "Cohort retention",
+            "description": "Fixed full-history cohort snapshot. Future cells are blank; original cohort denominator is fixed.",
+            "displayFolder": "Cohort snapshot",
+            "expression": "IF(HASONEVALUE(Cohorts[CohortMonth]) && HASONEVALUE(Cohorts[MonthIndex]),DIVIDE(SUM(Cohorts[ActiveCustomers]),MAX(Cohorts[CohortSize])))",
+            "formatString": "0.0%",
+            "lineageTag": "56a0be51-729a-44e9-9ed8-c8c9101fceb1"
+          },
+          {
+            "name": "Cohort customers",
+            "description": "Original customers in selected first-observed purchase cohorts.",
+            "displayFolder": "Cohort snapshot",
+            "expression": "SUMX(VALUES(Cohorts[CohortMonth]),CALCULATE(MAX(Cohorts[CohortSize])))",
+            "formatString": "#,##0",
+            "lineageTag": "ba14c8d6-d8f3-406b-a2bf-f5c7bbdafb99"
+          },
+          {
+            "name": "Cohort month count",
+            "description": "Selected first-observed purchase cohort months.",
+            "displayFolder": "Cohort snapshot",
+            "expression": "DISTINCTCOUNT(Cohorts[CohortMonth])",
+            "formatString": "#,##0",
+            "lineageTag": "086bc491-ae2b-44c1-9321-bf396c237d02"
+          },
+          {
+            "name": "Excluded lines",
+            "description": "Mutually exclusive excluded source rows; fixed population audit.",
+            "displayFolder": "Source audit",
+            "expression": "SUM(Quality[Rows])",
+            "formatString": "#,##0",
+            "lineageTag": "a6e6fa12-48a4-456f-85e8-98d74c8aec50"
+          },
+          {
+            "name": "Source lines",
+            "description": "Unfiltered raw input row count.",
+            "displayFolder": "Source audit",
+            "expression": "MAX(Audit[SourceRows])",
+            "formatString": "#,##0",
+            "lineageTag": "044ec13f-2a46-4448-9094-25f169a6c938"
+          },
+          {
+            "name": "Eligible lines audit",
+            "description": "Unfiltered retained population count.",
+            "displayFolder": "Source audit",
+            "expression": "MAX(Audit[EligibleRows])",
+            "formatString": "#,##0",
+            "lineageTag": "ef25a789-3fa1-48c6-bae8-a33b3e411aef"
+          },
+          {
+            "name": "Retained line rate",
+            "description": "Eligible invoice lines / input invoice lines; not a sales-value share.",
+            "displayFolder": "Source audit",
+            "expression": "DIVIDE([Eligible lines audit],[Source lines])",
+            "formatString": "0.00%",
+            "lineageTag": "794fb852-6a0e-40ce-9f20-c53f7d3bd2af"
+          },
+          {
+            "name": "Selected period",
+            "description": "Observed dates of eligible sales in the current selection.",
+            "displayFolder": "Context",
+            "expression": "VAR A=MIN(Sales[InvoiceDay]) VAR B=MAX(Sales[InvoiceDay]) RETURN IF(ISBLANK(A),\"No eligible sales in this selection\",FORMAT(A,\"dd MMM yyyy\") & \" – \" & FORMAT(B,\"dd MMM yyyy\"))",
+            "lineageTag": "49dfbf47-82b0-4058-bbf9-1a6df67899f7"
+          },
+          {
+            "name": "Selection note",
+            "description": "Dynamic scope of the current selection.",
+            "displayFolder": "Context",
+            "expression": "\"Identified customers · GBP · positive sales · \" & [Selected period]",
+            "lineageTag": "9fc8fd95-8a49-4141-91f8-f265fea13a2d"
+          },
+          {
+            "name": "Positive sales display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Positive sales]),\"—\",FORMAT([Positive sales],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "61647d62-a002-4b06-99b3-c4ac3969e988"
+          },
+          {
+            "name": "Orders display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Orders]),\"—\",FORMAT([Orders],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "1c2e470f-ba48-4ed3-80a5-61a09085e5e3"
+          },
+          {
+            "name": "Customers display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Customers]),\"—\",FORMAT([Customers],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "40ac9b7e-ea89-404d-96b0-e68569a0cd3b"
+          },
+          {
+            "name": "Products display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Products]),\"—\",FORMAT([Products],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "85a1e94d-81b4-44a0-a19c-fd6db0e221a5"
+          },
+          {
+            "name": "Units display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Units]),\"—\",FORMAT([Units],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "cdd98f71-b668-422f-9c5d-9795757ba95b"
+          },
+          {
+            "name": "Sales lines display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Sales lines]),\"—\",FORMAT([Sales lines],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "0b0b4cfb-f18a-48d0-9fe3-07c1ee906f20"
+          },
+          {
+            "name": "Average order value display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Average order value]),\"—\",FORMAT([Average order value],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "26631e12-096f-443a-8886-adcea5f2e4ac"
+          },
+          {
+            "name": "Sales per customer display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Sales per customer]),\"—\",FORMAT([Sales per customer],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "e3c7a1e4-8b28-40ff-8219-e695609e38ea"
+          },
+          {
+            "name": "Repeat customers display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Repeat customers]),\"—\",FORMAT([Repeat customers],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "a3a88c57-5ede-425c-9c38-6d884443b2c5"
+          },
+          {
+            "name": "Repeat customer rate display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Repeat customer rate]),\"—\",FORMAT([Repeat customer rate],\"0.00%\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "e7a194a8-6bde-4074-a9d7-d090cb720583"
+          },
+          {
+            "name": "Single-order customers display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Single-order customers]),\"—\",FORMAT([Single-order customers],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "b19d73d2-88d7-479f-aa14-52d0d81f8c5e"
+          },
+          {
+            "name": "Country sales share display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Country sales share]),\"—\",FORMAT([Country sales share],\"0.00%\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "94692ff1-050f-4fe6-8fd7-bcb0a2f173ba"
+          },
+          {
+            "name": "Full-month sales display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Full-month sales]),\"—\",FORMAT([Full-month sales],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "6707b9d9-cddd-4e86-9adb-09e8490ff58e"
+          },
+          {
+            "name": "Previous full-month sales display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Previous full-month sales]),\"—\",FORMAT([Previous full-month sales],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "6a21c85d-f3c9-48d1-95fe-708cc2c44d82"
+          },
+          {
+            "name": "MoM growth display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([MoM growth]),\"—\",FORMAT([MoM growth],\"0.00%\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "7b1573d0-72d2-440b-98c5-81b0200f1468"
+          },
+          {
+            "name": "Prior-year full-month sales display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Prior-year full-month sales]),\"—\",FORMAT([Prior-year full-month sales],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "f695e0e1-f0c2-47c9-b791-b359e7751fda"
+          },
+          {
+            "name": "YoY growth display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([YoY growth]),\"—\",FORMAT([YoY growth],\"0.00%\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "be007625-ddbc-4666-921e-c1e55f1b8e42"
+          },
+          {
+            "name": "Complete-month sales display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Complete-month sales]),\"—\",FORMAT([Complete-month sales],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "8273dfe8-c175-4786-9115-31346f4ae53f"
+          },
+          {
+            "name": "Partial-month sales display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Partial-month sales]),\"—\",FORMAT([Partial-month sales],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "1d209919-66b9-4447-81d7-d17eb8e9e522"
+          },
+          {
+            "name": "Product rank display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Product rank]),\"—\",FORMAT([Product rank],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "56af98a9-b636-40f2-9fe6-905abc6988e0"
+          },
+          {
+            "name": "Top 10 product sales display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Top 10 product sales]),\"—\",FORMAT([Top 10 product sales],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "fdbb6442-b327-4e3a-9b08-8cd419bcced7"
+          },
+          {
+            "name": "Country rank display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Country rank]),\"—\",FORMAT([Country rank],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "49ef86d1-d1a4-4522-8ccd-d11e167eb504"
+          },
+          {
+            "name": "Top 10 country sales display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Top 10 country sales]),\"—\",FORMAT([Top 10 country sales],\"£#,##0.00;(£#,##0.00);£0.00\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "0064a202-845b-4605-aedb-c2b119e4231c"
+          },
+          {
+            "name": "Cohort retention display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Cohort retention]),\"—\",FORMAT([Cohort retention],\"0.0%\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "9b9801c1-9849-4726-b8d6-0979cf009cac"
+          },
+          {
+            "name": "Cohort customers display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Cohort customers]),\"—\",FORMAT([Cohort customers],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "0226b52a-6b8e-4966-b7a4-0db973aab57b"
+          },
+          {
+            "name": "Cohort month count display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Cohort month count]),\"—\",FORMAT([Cohort month count],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "16fcc103-0d48-4a5b-b974-90c41e577ae0"
+          },
+          {
+            "name": "Excluded lines display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Excluded lines]),\"—\",FORMAT([Excluded lines],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "a859389d-85b8-48bf-b631-f3eb239ad3ce"
+          },
+          {
+            "name": "Source lines display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Source lines]),\"—\",FORMAT([Source lines],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "958258ae-ac17-4430-9a73-e1be67b7a887"
+          },
+          {
+            "name": "Eligible lines audit display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Eligible lines audit]),\"—\",FORMAT([Eligible lines audit],\"#,##0\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "de0a76d6-4e4f-45b2-9376-844459ccf1bc"
+          },
+          {
+            "name": "Retained line rate display",
+            "displayFolder": "Presentation",
+            "expression": "IF(ISBLANK([Retained line rate]),\"—\",FORMAT([Retained line rate],\"0.00%\",\"en-GB\"))",
+            "isHidden": true,
+            "lineageTag": "e5071981-3d14-4bea-b03e-e96ce24e314e"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Sales",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(ProjectFolder & \"/data/processed/cleaned_retail.csv\"), [Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Selected = Table.SelectColumns(Headers,{\"SourceRow\",\"Invoice\",\"StockCode\",\"CustomerID\",\"Country\",\"InvoiceDay\",\"Hour\",\"Quantity\",\"RevenuePence\"}),",
+                " Blanks = Table.ReplaceValue(Selected,\"\",null,Replacer.ReplaceValue,Table.ColumnNames(Selected)),",
+                " Typed = Table.TransformColumnTypes(Blanks,{{\"SourceRow\",Int64.Type},{\"Invoice\",type text},{\"StockCode\",type text},{\"CustomerID\",type text},{\"Country\",type text},{\"InvoiceDay\",type datetime},{\"Hour\",Int64.Type},{\"Quantity\",Int64.Type},{\"RevenuePence\",Int64.Type}},\"en-GB\")",
+                "in",
+                " Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Customers",
+        "columns": [
+          {
+            "name": "CustomerID",
+            "dataType": "string",
+            "isHidden": true,
+            "isKey": true,
+            "lineageTag": "7e511fa7-ef61-4779-ac0c-65191056f0e2",
+            "sourceColumn": "CustomerID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Recency",
+            "dataType": "int64",
+            "lineageTag": "3b4df374-1411-4871-aeff-b8f0e7bbb29a",
+            "sourceColumn": "Recency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Frequency",
+            "dataType": "int64",
+            "lineageTag": "6f46e009-bad1-4dc4-809b-39656be20335",
+            "sourceColumn": "Frequency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Segment",
+            "dataType": "string",
+            "lineageTag": "70907955-a951-4ac2-b245-097fbdbcb3a8",
+            "sourceColumn": "Segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FrequencySegment",
+            "dataType": "string",
+            "lineageTag": "a467cfed-1754-440e-81b0-3c741aa8bf2b",
+            "sourceColumn": "FrequencySegment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SnapshotDate",
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "isHidden": true,
+            "lineageTag": "8c6e588d-464c-4b6e-b2da-9eb12871b481",
+            "sourceColumn": "SnapshotDate",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "1b0b955d-0748-4ea6-95bd-81f9b65b7b9e",
+        "partitions": [
+          {
+            "name": "Customers",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(ProjectFolder & \"/data/processed/customer_metrics.csv\"), [Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Selected = Table.SelectColumns(Headers,{\"CustomerID\",\"Recency\",\"Frequency\",\"Segment\",\"FrequencySegment\",\"SnapshotDate\"}),",
+                " Blanks = Table.ReplaceValue(Selected,\"\",null,Replacer.ReplaceValue,Table.ColumnNames(Selected)),",
+                " Typed = Table.TransformColumnTypes(Blanks,{{\"CustomerID\",type text},{\"Recency\",Int64.Type},{\"Frequency\",Int64.Type},{\"Segment\",type text},{\"FrequencySegment\",type text},{\"SnapshotDate\",type datetime}},\"en-GB\")",
+                "in",
+                " Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Calendar",
+        "columns": [
+          {
+            "name": "Date",
+            "dataType": "dateTime",
+            "formatString": "dd MMM yyyy",
+            "isKey": true,
+            "lineageTag": "b1205cff-d5c1-4891-8fa2-b2aaefaeb5cc",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "dataType": "int64",
+            "lineageTag": "d825abc5-b042-4a35-88ce-2f5c0894ecd3",
+            "sourceColumn": "Year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthName",
+            "dataType": "string",
+            "lineageTag": "634a7f46-1c22-45fb-8cbf-49c3b0bbc041",
+            "sortByColumn": "MonthNumber",
+            "sourceColumn": "MonthName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthNumber",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "fada5c51-0a73-46a1-a517-dcdaa85dc005",
+            "sourceColumn": "MonthNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "YearMonth",
+            "dataType": "string",
+            "lineageTag": "d03061fd-b268-4800-b096-040679c4eb49",
+            "sortByColumn": "YearMonthNumber",
+            "sourceColumn": "YearMonth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "YearMonthNumber",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "3c13b111-aa64-40aa-8e56-6b1fb8bc94fc",
+            "sourceColumn": "YearMonthNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DayOfWeek",
+            "dataType": "string",
+            "lineageTag": "d5adaa6d-48b4-4622-9bc7-73b8f03d64f4",
+            "sortByColumn": "WeekdayNumber",
+            "sourceColumn": "DayOfWeek",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "WeekdayNumber",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "13293f68-ea66-4f24-8392-8fa53fd21bfa",
+            "sourceColumn": "WeekdayNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IsFullMonth",
+            "dataType": "boolean",
+            "isHidden": true,
+            "lineageTag": "f5615854-68f4-4bbe-8659-affeead519da",
+            "sourceColumn": "IsFullMonth",
+            "summarizeBy": "none"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "8ed8430d-5f98-4863-b958-544b2e130742",
+        "partitions": [
+          {
+            "name": "Calendar",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(ProjectFolder & \"/data/processed/calendar.csv\"), [Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Selected = Table.SelectColumns(Headers,{\"Date\",\"Year\",\"MonthName\",\"MonthNumber\",\"YearMonth\",\"YearMonthNumber\",\"DayOfWeek\",\"WeekdayNumber\",\"IsFullMonth\"}),",
+                " Blanks = Table.ReplaceValue(Selected,\"\",null,Replacer.ReplaceValue,Table.ColumnNames(Selected)),",
+                " Typed = Table.TransformColumnTypes(Blanks,{{\"Date\",type datetime},{\"Year\",Int64.Type},{\"MonthName\",type text},{\"MonthNumber\",Int64.Type},{\"YearMonth\",type text},{\"YearMonthNumber\",Int64.Type},{\"DayOfWeek\",type text},{\"WeekdayNumber\",Int64.Type},{\"IsFullMonth\",type logical}},\"en-GB\")",
+                "in",
+                " Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Products",
+        "columns": [
+          {
+            "name": "StockCode",
+            "dataType": "string",
+            "isKey": true,
+            "lineageTag": "45701243-f3cc-4399-a27a-239711720b84",
+            "sourceColumn": "StockCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Description",
+            "dataType": "string",
+            "lineageTag": "1529de13-bad7-4ac2-84aa-7da82e790ba5",
+            "sourceColumn": "Description",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e5710c07-72e8-47a5-b512-a6e2ba1487a8",
+        "partitions": [
+          {
+            "name": "Products",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(ProjectFolder & \"/power_bi/tables/product_performance.csv\"), [Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Selected = Table.SelectColumns(Headers,{\"StockCode\",\"Description\"}),",
+                " Blanks = Table.ReplaceValue(Selected,\"\",null,Replacer.ReplaceValue,Table.ColumnNames(Selected)),",
+                " Typed = Table.TransformColumnTypes(Blanks,{{\"StockCode\",type text},{\"Description\",type text}},\"en-GB\")",
+                "in",
+                " Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Countries",
+        "columns": [
+          {
+            "name": "Country",
+            "dataType": "string",
+            "isKey": true,
+            "lineageTag": "e70b9221-2b38-45e6-9a67-d721d1ca08a5",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "599f8334-5402-4618-ac71-2cff61097603",
+        "partitions": [
+          {
+            "name": "Countries",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(ProjectFolder & \"/power_bi/tables/country_revenue.csv\"), [Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Selected = Table.SelectColumns(Headers,{\"Country\"}),",
+                " Blanks = Table.ReplaceValue(Selected,\"\",null,Replacer.ReplaceValue,Table.ColumnNames(Selected)),",
+                " Typed = Table.TransformColumnTypes(Blanks,{{\"Country\",type text}},\"en-GB\")",
+                "in",
+                " Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cohorts",
+        "columns": [
+          {
+            "name": "CohortMonth",
+            "dataType": "string",
+            "lineageTag": "bfe0a8ee-b380-4c8f-87f6-243f0fde36cd",
+            "sourceColumn": "CohortMonth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ActivityMonth",
+            "dataType": "string",
+            "lineageTag": "514a7248-2bf3-4377-b8c2-582628686327",
+            "sourceColumn": "ActivityMonth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthIndex",
+            "dataType": "int64",
+            "lineageTag": "e32e0ea2-cd49-4307-8e87-244900b3078c",
+            "sourceColumn": "MonthIndex",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ActiveCustomers",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "9ab6c295-ea2d-4304-94b4-278b00de418a",
+            "sourceColumn": "ActiveCustomers",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CohortSize",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "912dbcaf-d67c-4400-b944-081bd754d93b",
+            "sourceColumn": "CohortSize",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RetentionRate",
+            "dataType": "double",
+            "isHidden": true,
+            "lineageTag": "d53b749d-37a1-4836-9959-e9f7ec701cf0",
+            "sourceColumn": "RetentionRate",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2ac5e64b-ca4b-4f95-a85d-33b2589fbd9a",
+        "partitions": [
+          {
+            "name": "Cohorts",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(ProjectFolder & \"/power_bi/tables/cohort_retention.csv\"), [Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Selected = Table.SelectColumns(Headers,{\"CohortMonth\",\"ActivityMonth\",\"MonthIndex\",\"ActiveCustomers\",\"CohortSize\",\"RetentionRate\"}),",
+                " Blanks = Table.ReplaceValue(Selected,\"\",null,Replacer.ReplaceValue,Table.ColumnNames(Selected)),",
+                " Typed = Table.TransformColumnTypes(Blanks,{{\"CohortMonth\",type text},{\"ActivityMonth\",type text},{\"MonthIndex\",Int64.Type},{\"ActiveCustomers\",Int64.Type},{\"CohortSize\",Int64.Type},{\"RetentionRate\",type number}},\"en-GB\")",
+                "in",
+                " Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quality",
+        "columns": [
+          {
+            "name": "Reason",
+            "dataType": "string",
+            "lineageTag": "f304e0b7-b7d6-4d64-8bab-9af76c1bff72",
+            "sourceColumn": "Reason",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Rows",
+            "dataType": "int64",
+            "lineageTag": "f6eee991-d19e-4838-886a-631e7d5fcb90",
+            "sourceColumn": "Rows",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7dc5e632-ea5f-4d96-93df-c1f9a955fee0",
+        "partitions": [
+          {
+            "name": "Quality",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Json.Document(File.Contents(ProjectFolder & \"/data/quality/cleaning_summary.json\")),",
+                " Reasons = Record.ToTable(Source[exclusions]),",
+                " Renamed = Table.RenameColumns(Reasons,{{\"Name\",\"Reason\"},{\"Value\",\"Rows\"}}),",
+                " Typed = Table.TransformColumnTypes(Renamed,{{\"Reason\",type text},{\"Rows\",Int64.Type}})",
+                "in",
+                " Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Audit",
+        "columns": [
+          {
+            "name": "SourceRows",
+            "dataType": "int64",
+            "lineageTag": "85ad6bce-839a-4310-a4eb-69b1d9a4481e",
+            "sourceColumn": "SourceRows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EligibleRows",
+            "dataType": "int64",
+            "lineageTag": "3449f427-b098-4893-860e-3684d1523792",
+            "sourceColumn": "EligibleRows",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ExcludedRows",
+            "dataType": "int64",
+            "lineageTag": "4954319d-9796-4668-9ea9-56d91a19cb97",
+            "sourceColumn": "ExcludedRows",
+            "summarizeBy": "none"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "e1907c47-e6ef-4534-af03-cfa306e54743",
+        "partitions": [
+          {
+            "name": "Audit",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Json.Document(File.Contents(ProjectFolder & \"/data/quality/cleaning_summary.json\")),",
+                " Output = #table(type table [SourceRows=Int64.Type,EligibleRows=Int64.Type,ExcludedRows=Int64.Type],{{Source[source_rows],Source[eligible_sales_lines],Source[excluded_rows]}})",
+                "in",
+                " Output"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

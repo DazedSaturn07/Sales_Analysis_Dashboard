@@ -1,0 +1,28 @@
+-- Dedicated project database; runner chooses database, never embeds credentials.
+CREATE TABLE IF NOT EXISTS sales (
+    SourceRow BIGINT NOT NULL PRIMARY KEY,
+    Invoice VARCHAR(40) NOT NULL,
+    StockCode VARCHAR(40) NOT NULL,
+    Description VARCHAR(512) NOT NULL,
+    Quantity BIGINT NOT NULL,
+    InvoiceDate DATETIME NOT NULL,
+    Price DECIMAL(12,3) NOT NULL,
+    CustomerID VARCHAR(40) NOT NULL,
+    Country VARCHAR(100) NOT NULL,
+    InvoiceDay DATE NOT NULL,
+    RevenuePence BIGINT NOT NULL,
+    TotalAmount DECIMAL(20,2) NOT NULL,
+    Year SMALLINT NOT NULL,
+    Month TINYINT NOT NULL,
+    MonthName VARCHAR(15) NOT NULL,
+    DayOfWeek VARCHAR(15) NOT NULL,
+    WeekdayNumber TINYINT NOT NULL,
+    Hour TINYINT NOT NULL,
+    INDEX idx_invoice (Invoice),
+    INDEX idx_customer (CustomerID),
+    INDEX idx_date (InvoiceDay),
+    INDEX idx_country (Country),
+    CHECK (Quantity > 0),
+    CHECK (Price > 0),
+    CHECK (RevenuePence >= 0)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
